@@ -8,7 +8,6 @@ export default class Counter extends Component {
 
   render() {
     const { length, value, handleIncrement, handleDecrement } = this.props;
-    console.log(value);
     return (
       <>
         <Controls

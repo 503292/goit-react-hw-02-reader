@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import css from './Controls.module.css';
 
 const Controls = ({ length, value, handleIncrement, handleDecrement }) => {
-  console.log(length);
-  console.log(value);
   return (
     <section className={css.controls}>
       <button
